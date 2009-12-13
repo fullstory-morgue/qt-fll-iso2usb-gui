@@ -1,0 +1,15 @@
+Source: qt-fll-iso2usb.gui
+Section: admin
+Priority: extra
+Maintainer: Nikolas Poniros <edhunter@sidux.com>
+Build-Depends: cdbs, qt4-qmake, libqt4-dev, debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://noc.sidux.com/cli-installer/browser/qt-fll-iso2usb.gui
+
+Package: qt-fll-iso2usb.gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fll-iso2usb
+Recommends: sidux-manual-common
+Description: Qt front-end for fll-iso2usb
+ A front-end to call fll-iso2usb program to install
+ a live sidux system onto a usb stick.

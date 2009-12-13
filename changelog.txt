@@ -1,0 +1,80 @@
+Mon 2009-11-30 2030 hrs UTC
+
+VERSION: 0.0.8
+
+* rearranged the gui
+* added code to open cheatcodes package in QDialog
+
+__________________________________________________________
+
+Mon 2009-11-30 1200 hrs UTC
+
+VERSION: 0.0.7
+
+* changed project, object (where needed) and file names to qt-fll-iso2usb.gui
+* set application name, version, locale in main and pass to qt_fll_iso2usb_gui via constructor
+* use getuid() to check if user is root (thx x-un-i)
+* removed format options from gui. removed any format options related code
+* added the sidux logo to show instead of the progress bar when application is idle
+* added webkit to .pro file
+
+__________________________________________________________
+
+Thu 2009-11-12 0635 hrs UTC
+
+VERSION: 0.0.6
+
+* added code to override QWidget::closeEvent(QCloseEvent*) fuction to make sure
+fll-iso2usb gets terminated/killed if a user closes the window
+* added code for about and help
+* rearranged the gui
+* added components and code to support the --percent and --label options of fll-iso2usb
+* added function set_defaults to set some defaults for the gui and to call functions to set
+about message, device list, etc
+
+
+Wed 2009-11-11 1600 hrs UTC
+
+VERSION: 0.0.5
+
+* added code to handle SIGINT SIGTERM SIGKILL. purpose of this is to make
+sure that fll_iso2usb process also gets terminated/killed if gui does
+
+_________________________________________________________
+
+Wed 2009-11-11 1230 hrs UTC
+
+VERSION: 0.0.4
+
+* added frames and code to simulate a progressbar
+* changed default directory for browse button
+* added code to handle error signals from fll_iso2usb process
+
+Wed 2009-11-11 0810 hrs UTC
+
+VERSION: 0.0.3
+
+* added code to clear textEdit when start is pushed
+* added code to disable the buttons when start is pushed and to
+  re-enable them when the process is finished
+* added code to remove any usb cd/dvd roms from the device list
+* added code to filter out stdout from fdisk and other commands called by fll-iso2usb
+
+__________________________________________________________
+
+Tue 2009-11-10 1500 hrs UTC
+
+VERSION: 0.0.2
+
+* added code to detect usb devices
+* added refresh button to the gui
+
+__________________________________________________________
+
+Tue 2009-11-10 0915 hrs UTC
+
+VERSION: 0.0.1
+
+* initial release
+
+

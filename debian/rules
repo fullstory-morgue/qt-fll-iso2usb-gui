@@ -43,14 +43,14 @@ create-icons::
 		mkdir -p "icons/hicolor/$${i}x$${i}/apps" ; \
 		inkscape --export-width=$${i} \
 			 --export-height=$${i} \
-			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/qt-fll-iso2usb.gui.png" \
-				$(CURDIR)/icons/qt-fll-iso2usb.gui.svg ; \
+			 --export-png="$(CURDIR)/icons/hicolor/$${i}x$${i}/apps/qt-fll-iso2usb-gui.png" \
+				$(CURDIR)/icons/qt-fll-iso2usb-gui.svg ; \
 	done
 
 	# create XPM icons for the debian menu system
 	mkdir -p icons/pixmaps
-	convert icons/hicolor/32x32/apps/qt-fll-iso2usb.gui.png icons/pixmaps/qt-fll-iso2usb.gui.xpm
-	convert icons/hicolor/16x16/apps/qt-fll-iso2usb.gui.png icons/pixmaps/qt-fll-iso2usb.gui-16.xpm
+	convert icons/hicolor/32x32/apps/qt-fll-iso2usb-gui.png icons/pixmaps/qt-fll-iso2usb-gui.xpm
+	convert icons/hicolor/16x16/apps/qt-fll-iso2usb-gui.png icons/pixmaps/qt-fll-iso2usb-gui-16.xpm
 
 
 binary: binary-indep binary-arch

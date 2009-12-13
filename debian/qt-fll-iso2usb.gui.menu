@@ -1,7 +1,0 @@
-?package(qt-fll-iso2usb-gui):needs="X11" \
-	section="Applications/System/Administration" \
-	hints="sidux,Config" \
-	title="install-sidux-to-usb" \
-	icon32x32="/usr/share/pixmaps/qt-fll-iso2usb.gui.xpm" \
-	icon16x16="/usr/share/pixmaps/qt-fll-iso2usb.gui-16.xpm" \
-	command="su-to-root -X -c /usr/bin/qt-fll-iso2usb.gui"

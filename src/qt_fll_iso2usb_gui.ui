@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>qt-fll-iso2usb.gui</string>
+   <string>qt-fll-iso2usb-gui</string>
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
@@ -2403,7 +2403,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../icons/qt-fll-iso2usb.gui.qrc"/>
+  <include location="../icons/qt-fll-iso2usb-gui.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=sidux usb fromiso installer
-Exec=su-to-root -X -c qt-fll-iso2usb.gui
+Exec=su-to-root -X -c qt-fll-iso2usb-gui
 # Icon=
 Name=QT4 USB installer (fromiso)
 Categories=Qt;KDE;System;

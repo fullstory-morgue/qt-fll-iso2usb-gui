@@ -1,5 +1,12 @@
 qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
 
+  [ edhunter ]
   * Initial release
 
- -- edhunter <edhunter@sidux.com>  Mon, 30 Nov 2009 22:46:19 +0100
+  [ Stefan Lippers-Hollmann ]
+  * add myself to Uploaders.
+  * downgrade recommends on the sidux manual to suggests.
+  * add inkscape and imagemagick to build-depends.
+  * fix naming for remaining files.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Dec 2009 22:54:06 +0100

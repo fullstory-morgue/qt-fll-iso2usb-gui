@@ -8,5 +8,6 @@ qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
   * downgrade recommends on the sidux manual to suggests.
   * add inkscape and imagemagick to build-depends.
   * fix naming for remaining files.
+  * apply proper folding in debian/control.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Dec 2009 22:54:06 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Dec 2009 22:55:29 +0100

@@ -1,4 +1,4 @@
-?package(qt-fll-iso2usb.gui):needs="X11" \
+?package(qt-fll-iso2usb-gui):needs="X11" \
 	section="Applications/System/Administration" \
 	hints="sidux,Config" \
 	title="install-sidux-to-usb" \

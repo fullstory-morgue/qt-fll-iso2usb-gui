@@ -1,4 +1,4 @@
 applications/qt-fll-iso2usb-gui.desktop   usr/share/applications/
-qt-fll-iso2usb.gui   usr/bin/
+qt-fll-iso2usb-gui   usr/bin/
 icons/hicolor        usr/share/icons/
 icons/pixmaps        usr/share/

@@ -3,7 +3,6 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QUrl>
-#include <iostream>
 #include <signal.h>
 
 #include "qt_fll_iso2usb_gui.h"

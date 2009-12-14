@@ -1,6 +1,6 @@
 qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
 
-  [ edhunter ]
+  [ Nikolas Poniros ]
   * Initial release
 
   [ Stefan Lippers-Hollmann ]
@@ -10,4 +10,7 @@ qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
   * fix naming for remaining files.
   * apply proper folding in debian/control.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Dec 2009 22:55:29 +0100
+  [ Nikolas Poniros ]
+  * removed the inclusion of iostream. it is not needed
+
+ -- Nikolas Poniros <edhunter@sidux.com>  Mon, 14 Dec 2009 20:07:19 +0100

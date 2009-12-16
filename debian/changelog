@@ -1,7 +1,8 @@
-qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
+qt-fll-iso2usb-gui (0.0.8) unstable; urgency=low
 
   [ Nikolas Poniros ]
   * Initial release
+  * removed the inclusion of iostream. it is not needed
 
   [ Stefan Lippers-Hollmann ]
   * add myself to Uploaders.
@@ -9,8 +10,5 @@ qt-fll-iso2usb-gui (0.0.8-1) unstable; urgency=low
   * add inkscape and imagemagick to build-depends.
   * fix naming for remaining files.
   * apply proper folding in debian/control.
-
-  [ Nikolas Poniros ]
-  * removed the inclusion of iostream. it is not needed
 
  -- Nikolas Poniros <edhunter@sidux.com>  Mon, 14 Dec 2009 20:07:19 +0100

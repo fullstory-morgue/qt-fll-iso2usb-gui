@@ -22,14 +22,16 @@ void cleanup(int para)
 	exit (para);
 }
 
-qt_fll_iso2usb_gui::qt_fll_iso2usb_gui(QString name, QString ver, QString loc, QMainWindow *parent)
-    : QMainWindow(parent)
+qt_fll_iso2usb_gui::qt_fll_iso2usb_gui(QString name, QString ver, QString loc, 
+	bool live, bool toram, QMainWindow *parent) : QMainWindow(parent)
 {
 	setupUi(this);
 	
 	locale = loc;
 	version = ver;
 	appName = name;
+	in_live = live;
+	is_toram = toram;
 	
 	set_defaults();
 	
@@ -68,13 +70,20 @@ void qt_fll_iso2usb_gui::set_defaults()
 	lineEdit_Label->setVisible(false);
 	frame_Progressbar->setVisible(false);
 	
-	// add auto-complete abilities to the lineEdit_ISO object
-	QCompleter *auto_complete = new QCompleter(this);
-	auto_complete->setModel(new QDirModel(auto_complete));
-	lineEdit_ISO->setCompleter(auto_complete);
-
+	// if we are in live and toram cheatcode is not used dont show entry to choose ISO
+	if ( in_live  && ! is_toram ) {
+		lineEdit_ISO->setVisible(false);
+		pushButton_Browse->setVisible(false);
+		label_ISO->setVisible(false);
+	} else {
+		// add auto-complete abilities to the lineEdit_ISO object
+		QCompleter *auto_complete = new QCompleter(this);
+		auto_complete->setModel(new QDirModel(auto_complete));
+		lineEdit_ISO->setCompleter(auto_complete);
+	}
+	
 	textEdit_Cmd_Output->setReadOnly(true);
-
+	
 	list_devices();
 	set_about();
 	set_help();
@@ -174,14 +183,20 @@ int qt_fll_iso2usb_gui::set_cmd_options()
 {
 	cmd_options.append("--device");
 	cmd_options.append(comboBox_Device->currentText());
-	cmd_options.append("--iso");
-	if (lineEdit_ISO->text() == ""){
-		QMessageBox::warning(this, "fll-iso2usb-gui", tr("You have not selected an ISO"));
-		cmd_options.clear();
-		return 1;
-	} else {
-		cmd_options.append(lineEdit_ISO->text());
+	if ( ! ( in_live  && ! is_toram ) ) {
+		cmd_options.append("--iso");
+		if (lineEdit_ISO->text() == ""){
+			QMessageBox::warning(this, "fll-iso2usb-gui", tr("You have not selected an ISO"));
+			cmd_options.clear();
+			return 1;
+		} else {
+			cmd_options.append(lineEdit_ISO->text());
+		}
 	}
+	
+	// have this as default. user should preformat
+	cmd_options.append("--format");
+	cmd_options.append("none");
 	
 	if (checkBox_Persist->isChecked()){
 		cmd_options.append("--persist");

@@ -14,7 +14,7 @@ class qt_fll_iso2usb_gui : public QMainWindow, Ui::qt_fll_iso2usb_gui
 	Q_OBJECT
 	
 	public:
-		qt_fll_iso2usb_gui(QString, QString, QString, QMainWindow *parent = 0);
+		qt_fll_iso2usb_gui(QString, QString, QString, bool, bool, QMainWindow *parent = 0);
 		~qt_fll_iso2usb_gui();
 	
 	private slots:
@@ -49,6 +49,8 @@ class qt_fll_iso2usb_gui : public QMainWindow, Ui::qt_fll_iso2usb_gui
 		QDialog help_window;
 		QWebView help_page;
 		int lastFrame_was;
+		bool is_toram;
+		bool in_live;
 		
 	protected:
 		void closeEvent(QCloseEvent* event);

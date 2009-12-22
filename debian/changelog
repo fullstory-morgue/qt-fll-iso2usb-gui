@@ -1,8 +1,14 @@
+qt-fll-iso2usb-gui (0.0.10) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Dec 2009 02:23:20 +0100
+
 qt-fll-iso2usb-gui (0.0.9) unstable; urgency=low
 
   * added script (qt-fll-iso2usb-gui.bash) to set some needed env vars and
     call actuall program
-  * if in live mode dont show the choose ISO entry
+  * if in live mode don't show the choose ISO entry
   * added --format none as default option
   * modified install to add qt-fll-iso2usb-gui.bash
   * modified qt-fll-iso2usb-gui.menu and qt-fll-iso2usb-gui.desktop to use 

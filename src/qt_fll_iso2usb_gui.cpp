@@ -47,8 +47,10 @@ qt_fll_iso2usb_gui::qt_fll_iso2usb_gui(QString name, QString ver, QString loc,
 	connect(pushButton_Show_Cmd, SIGNAL(clicked()), this, SLOT(show_cmd()));
 	connect(pushButton_Refresh, SIGNAL(clicked()), this, SLOT(list_devices()));
 	connect(pushButton_Cheatcodes, SIGNAL(clicked()), this, SLOT(call_cheatcodes()));
-	connect(pushButton_Help, SIGNAL(clicked()), this, SLOT(help()));
-	connect(pushButton_About, SIGNAL(clicked()), this, SLOT(about()));
+	
+	//menu bar objects
+	connect(actionHelp, SIGNAL(triggered()), this, SLOT(help()));
+	connect(actionAbout, SIGNAL(triggered()), this, SLOT(about()));
 	
 	timer = new QTimer();
 	
@@ -120,7 +122,6 @@ int qt_fll_iso2usb_gui::start()
 	pushButton_Start->setEnabled(false);
 	pushButton_Show_Cmd->setEnabled(false);
 	frame_Progressbar->setVisible(true);
-	frame_Logo->setVisible(false);
 
 	connect(fll_iso2usb, SIGNAL(error(QProcess::ProcessError )), this, SLOT(process_errored(QProcess::ProcessError)));
 	connect(fll_iso2usb, SIGNAL(readyReadStandardOutput()), this, SLOT(print_cmd_output()));
@@ -156,7 +157,6 @@ void qt_fll_iso2usb_gui::process_finished(int i)
 	pushButton_Start->setEnabled(true);
 	pushButton_Show_Cmd->setEnabled(true);
 	frame_Progressbar->setVisible(false);
-	frame_Logo->setVisible(true);
 
 }
 
@@ -434,7 +434,8 @@ void qt_fll_iso2usb_gui::set_about()
 	about_msg += "\n" + tr("Developer") + ":\n";
 	about_msg += "Nikolas Poniros <edhunter@sidux.com>\n";
 
-     about_msg += "\n" + tr("License") + ": GPLv2";
+	about_msg += tr("Special thanks to Magnus Müller for rearranging the GUI to make it more functional") + "\n";
+	about_msg += "\n" + tr("License") + ": GPLv2";
 }
 
 void qt_fll_iso2usb_gui::help()

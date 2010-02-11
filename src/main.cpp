@@ -1,5 +1,5 @@
 /*
- * Version: 0.0.7
+ * Version: 0.0.10
  */
 
 #include <QApplication>
@@ -14,7 +14,7 @@ int main( int argc, char** argv )
 	QApplication app(argc, argv);
 
 	QString appName = "qt-fll-iso2usb-gui";
-	QString version = "0.0.9";
+	QString version = "0.0.10";
 
 	QString locale = QLocale::system().name().left(2);
 	QTranslator translator;

@@ -8,15 +8,21 @@ Upstream Author(s):
 
 Copyright:
 
-    Copyright © 2009 Nikolas Poniros
+    Copyright © 2009-2010 Nikolas Poniros
 
 License:
 
     GPL-2
 
+File: src/qt_fll_iso2usb_gui.ui
+    Copyright: © 2009-2010 Nikolas Poniros <edhunter@sidux.com>
+	    © 2010 Magnus Müller <mamuelle@informatik.hu-berlin.de>
+
+License: GPL-2
+
 The Debian packaging is:
 
-    Copyright © 2009 Nikolas Poniros <edhunter@sidux.com>
+    Copyright © 2009-2010 Nikolas Poniros <edhunter@sidux.com>
 
 and is licensed under the GPL version 2, 
 see `/usr/share/common-licenses/GPL-2'.
@@ -86,6 +92,3 @@ version 2, can be found in `/usr/share/common-licenses/GPL-2'.
 
 On Debian systems, the complete text of the GNU Lesser General Public License,
 version 2, can be found in `/usr/share/common-licenses/LGPL-2'.
-
-
-

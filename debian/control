@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7),
  inkscape,
  libqt4-dev,
  qt4-qmake
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: https://noc.sidux.com/cli-installer/browser/qt-fll-iso2usb-gui
 Vcs-Svn: svn://svn.berlios.de/fullstory/qt-fll-iso2usb-gui/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/qt-fll-iso2usb-gui/trunk/

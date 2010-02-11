@@ -1,8 +1,16 @@
 qt-fll-iso2usb-gui (0.0.10) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Dec 2009 02:23:20 +0100
+  [ Nikolas Poniros ]
+  * Added menu bar to gui
+  * Rearranging the gui. thanks evnu
+  * Adding Mangus Müller (evnu) to copyright
+  * Extended copyright to 2010
+  * Bumping standards to 3.8.4. No changes needed
+
+ -- Nikolas Poniros <edhunter@sidux.com>  Thu, 11 Feb 2010 21:56:34 +0100
 
 qt-fll-iso2usb-gui (0.0.9) unstable; urgency=low
 

@@ -1,8 +1,13 @@
 qt-fll-iso2usb-gui (0.0.11) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 13 Feb 2010 02:08:57 +0100
+  [ Nikolas Poniros ]
+  * minor typos fixed in help function
+  * change variable names in constructor
+
+ -- Nikolas Poniros <edhunter@sidux.com>  Fri, 19 Feb 2010 02:37:08 +0100
 
 qt-fll-iso2usb-gui (0.0.10) unstable; urgency=low
 

@@ -22,16 +22,16 @@ void cleanup(int para)
 	exit (para);
 }
 
-qt_fll_iso2usb_gui::qt_fll_iso2usb_gui(QString name, QString ver, QString loc, 
-	bool live, bool toram, QMainWindow *parent) : QMainWindow(parent)
+qt_fll_iso2usb_gui::qt_fll_iso2usb_gui(QString appName, QString version, QString locale, 
+	bool in_live, bool is_toram, QMainWindow *parent) : QMainWindow(parent)
 {
 	setupUi(this);
 	
-	locale = loc;
-	version = ver;
-	appName = name;
-	in_live = live;
-	is_toram = toram;
+	this->locale = locale;
+	this->version = version;
+	this->appName = appName;
+	this->in_live = in_live;
+	this->is_toram = is_toram;
 	
 	set_defaults();
 	
@@ -445,11 +445,11 @@ void qt_fll_iso2usb_gui::help()
 
 void qt_fll_iso2usb_gui::set_help()
 {
-	help_msg = appName + " " + tr("is a graphical front-end for fll-iso2usb which allows you to easily create bootable USB-sticks") + "\n\n";
+	help_msg = appName + " " + tr("is a graphical front-end for fll-iso2usb which allows you to easily create bootable USB-sticks.") + "\n\n";
 
-	help_msg += tr("The \"Show Command\" button shows you the command that will be used to run fll-iso2usb with") + "\n\n";
+	help_msg += tr("The \"Show Command\" button shows you the command that will be used to run fll-iso2usb with.") + "\n\n";
 	
-	help_msg += tr("For more information please have a look at man fll-iso2usb");
+	help_msg += tr("For more information please have a look at man fll-iso2usb.");
 	
 }
 

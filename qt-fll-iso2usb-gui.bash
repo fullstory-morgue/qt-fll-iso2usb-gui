@@ -4,7 +4,7 @@
 # Copyright: © 2007-2009 Joaquim Boura <x-un-i@sidux.com>
 # Copyright: © 2007-2008 Kel Modderman <kel@otaku42.de>
 # Copyright: © 2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-# Copyright: © 2009 Nikolas Poniros <edhunter@sidux.com>
+# Copyright: © 2009-2010 Nikolas Poniros <edhunter@sidux.com>
 # 
 # install-usb-gui.bash is free software: you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
@@ -42,4 +42,8 @@ fi
 export FLL_DISTRO_MODE
 export CHEATCODE_TORAM=$(grep -c toram /proc/cmdline) 
 
-exec $INSTALL_USB_GUI
+if [ `id -u` -ne 0 ]; then
+	exec su-to-root -X -c $INSTALL_USB_GUI
+else
+	exec $INSTALL_USB_GUI
+fi

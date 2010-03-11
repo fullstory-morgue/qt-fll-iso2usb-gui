@@ -433,8 +433,9 @@ void qt_fll_iso2usb_gui::set_about()
 	
 	about_msg += "\n" + tr("Developer") + ":\n";
 	about_msg += "Nikolas Poniros <edhunter@sidux.com>\n";
-
-	about_msg += tr("Special thanks to Magnus Müller for rearranging the GUI to make it more functional") + "\n";
+	about_msg += tr("Special thanks to");
+	about_msg += QString::fromUtf8(" Magnus Mueller " );
+	about_msg += tr("for rearranging the GUI to make it more functional") + "\n";
 	about_msg += "\n" + tr("License") + ": GPLv2";
 }
 

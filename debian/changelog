@@ -1,9 +1,5 @@
-qt-fll-iso2usb-gui (0.0.12) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.0.12) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Nikolas Poniros ]
   * Added test for root in bash script. If not root call application
     with su-to-root
   * Application can't print umlauts if run from the script. 

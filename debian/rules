@@ -1,33 +1,9 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/qmake.mk
+%:
+	dh --buildsystem=qmake ${@}
 
-QMAKE = qmake-qt4
-
-ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
-	CFLAGS += -O0
-else
-	CFLAGS += -O2
-endif
-
-
-build: build-stamp create-icons
-
-build-stamp::
-	dh_testdir
-
-	# Add here commands to compile the package.
-	$(MAKE)
-
-	touch $@
-
-
-# Build architecture-independent files here.
-binary-indep: build install
-# We have nothing to do by default.
-
-create-icons::
+create-icons:
 	# requires inkscape and imagemagick to be installed
 	@if [ ! -x /usr/bin/convert ]; then \
 		echo "ERROR: imagemagick not installed!" ; \
@@ -51,7 +27,3 @@ create-icons::
 	mkdir -p icons/pixmaps
 	convert icons/hicolor/32x32/apps/qt-fll-iso2usb-gui.png icons/pixmaps/qt-fll-iso2usb-gui.xpm
 	convert icons/hicolor/16x16/apps/qt-fll-iso2usb-gui.png icons/pixmaps/qt-fll-iso2usb-gui-16.xpm
-
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install

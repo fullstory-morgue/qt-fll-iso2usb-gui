@@ -3,12 +3,12 @@ Section: admin
 Priority: extra
 Maintainer: Nikolas Poniros <edhunter@sidux.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 7),
- cdbs,
+Build-Depends: debhelper (>= 7.4.16),
  imagemagick,
  inkscape,
  libqt4-dev,
  qt4-qmake
+Build-Conflicts: libqt3-dev
 Standards-Version: 3.8.4
 Homepage: https://noc.sidux.com/cli-installer/browser/qt-fll-iso2usb-gui
 Vcs-Svn: svn://svn.berlios.de/fullstory/qt-fll-iso2usb-gui/trunk

@@ -1,8 +1,11 @@
-qt-fll-iso2usb-gui (0.0.13) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.0.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to dpkg-source 3.0 (native) format.
+  * switch to compact dh7 rules.
+  * Build-Conflicts: libqt3-dev.
+  * regenerate icons.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 24 Mar 2010 00:16:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 May 2010 02:58:31 +0200
 
 qt-fll-iso2usb-gui (0.0.12) unstable; urgency=low
 

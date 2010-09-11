@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7.4.16),
  libqt4-dev,
  qt4-qmake
 Build-Conflicts: libqt3-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.0
 Homepage: https://noc.sidux.com/cli-installer/browser/qt-fll-iso2usb-gui
 Vcs-Svn: svn://svn.berlios.de/fullstory/qt-fll-iso2usb-gui/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/qt-fll-iso2usb-gui/trunk/
@@ -21,5 +21,8 @@ Depends: ${shlibs:Depends},
   fll-iso2usb
 Suggests: sidux-manual-common
 Description: Qt front-end for fll-iso2usb
- A front-end to call fll-iso2usb program to install
- a live sidux system onto a usb stick.
+ A front-end to call the fll-iso2usb program to install a live sidux system
+ onto a usb stick, while offering advanced options and customizations for 
+ filesystem, the CMDLINE of the to be installed or persistency options. This
+ installer is able to cope with pre-partioned or -formatted USB drives and
+ installs a generic live system.

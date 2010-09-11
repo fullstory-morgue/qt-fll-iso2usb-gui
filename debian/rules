@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh --buildsystem=qmake ${@}
+	dh ${@} --buildsystem=qmake
 
 create-icons:
 	# requires inkscape and imagemagick to be installed

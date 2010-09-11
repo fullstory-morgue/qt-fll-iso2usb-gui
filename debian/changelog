@@ -1,8 +1,11 @@
-qt-fll-iso2usb-gui (0.0.14) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.0.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.0, no changes necessary.
+  * adapt for the upcoming compat level 8.
+  * regenerate icons.
+  * elaborate long description a bit further, to make lintian happy.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 May 2010 03:03:24 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 02:56:10 +0200
 
 qt-fll-iso2usb-gui (0.0.13) unstable; urgency=low
 

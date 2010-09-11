@@ -1,8 +1,8 @@
-qt-fll-iso2usb-gui (0.0.16) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.0.16) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 04 Aug 2010 00:11:01 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 04:53:04 +0200
 
 qt-fll-iso2usb-gui (0.0.15) unstable; urgency=low
 

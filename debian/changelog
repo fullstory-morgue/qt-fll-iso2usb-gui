@@ -1,8 +1,8 @@
-qt-fll-iso2usb-gui (0.1.1) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.1.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import revised icons from detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 21:32:11 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 09 Sep 2010 04:57:37 +0200
 
 qt-fll-iso2usb-gui (0.1.0) unstable; urgency=low
 

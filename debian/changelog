@@ -1,3 +1,9 @@
+qt-fll-iso2usb-gui (0.0.15) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 03:00:56 +0200
+
 qt-fll-iso2usb-gui (0.0.14) unstable; urgency=low
 
   * bump standards version to 3.9.0, no changes necessary.

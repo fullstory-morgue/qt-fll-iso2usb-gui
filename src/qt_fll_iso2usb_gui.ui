@@ -2356,7 +2356,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string>background-image: url(:/sidux-logo-web.png);</string>
+       <string>background-image: url(:/aptosid-logo-web.png);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>

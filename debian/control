@@ -19,9 +19,9 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends},
   fll-iso2usb
-Suggests: sidux-manual-common
+Suggests: aptosid-manual-common
 Description: Qt front-end for fll-iso2usb
- A front-end to call the fll-iso2usb program to install a live sidux system
+ A front-end to call the fll-iso2usb program to install a live aptosid system
  onto a usb stick, while offering advanced options and customizations for 
  filesystem, the CMDLINE of the to be installed or persistency options. This
  installer is able to cope with pre-partioned or -formatted USB drives and

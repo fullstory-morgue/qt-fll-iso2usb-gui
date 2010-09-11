@@ -405,15 +405,15 @@ void qt_fll_iso2usb_gui::call_cheatcodes(){
 
 	help_page.setGeometry(0,0,800,600);
 
-	QFile man_page("/usr/share/sidux-manual/"+locale+"/cheatcodes-"+locale+".htm");
+	QFile man_page("/usr/share/aptosid-manual/"+locale+"/cheatcodes-"+locale+".htm");
 	
 	QUrl url;
 	
 	// if manual exists localy use it. else go online
 	if ( man_page.exists()){
-		url.setUrl("/usr/share/sidux-manual/"+locale+"/cheatcodes-"+locale+".htm");
+		url.setUrl("/usr/share/aptosid-manual/"+locale+"/cheatcodes-"+locale+".htm");
 	}else{
-		url.setUrl("http://manual.sidux.com/"+locale+"/cheatcodes-"+locale+".htm");
+		url.setUrl("http://manual.aptosid.com/"+locale+"/cheatcodes-"+locale+".htm");
 	}
 	
 	help_page.load(url);
@@ -432,7 +432,7 @@ void qt_fll_iso2usb_gui::set_about()
 	about_msg = appName + " " + tr("Version") + ": " + version + "\n";
 	
 	about_msg += "\n" + tr("Developer") + ":\n";
-	about_msg += "Nikolas Poniros <edhunter@sidux.com>\n";
+	about_msg += "Nikolas Poniros <edhunter@aptosid.com>\n";
 	about_msg += tr("Special thanks to");
 	about_msg += QString::fromUtf8(" Magnus Mueller " );
 	about_msg += tr("for rearranging the GUI to make it more functional") + "\n";

@@ -1,8 +1,8 @@
-qt-fll-iso2usb-gui (0.0.17) UNRELEASED; urgency=low
+qt-fll-iso2usb-gui (0.1.0) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to aptosid.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 04:53:24 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 21:31:30 +0200
 
 qt-fll-iso2usb-gui (0.0.16) unstable; urgency=low
 

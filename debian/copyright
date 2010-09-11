@@ -24,7 +24,7 @@ The Debian packaging is:
 
     Copyright © 2009-2010 Nikolas Poniros <edhunter@sidux.com>
 
-and is licensed under the GPL version 2, 
+and is licensed under the GPL version 2,
 see `/usr/share/common-licenses/GPL-2'.
 
 File: qt-fll-iso2usb-gui.bash
@@ -35,9 +35,9 @@ File: qt-fll-iso2usb-gui.bash
 	    © 2009 Nikolas Poniros <edhunter@sidux.com>
 
 File: icons/sidux-logo-web.png
-    Copyright © 2008 Bernard Gray <bernard.gray@gmail.com>  
-	      © 2008 David Creedy <djcreedy@iinet.net.au>              
-License: GPL2 or later  
+    Copyright © 2008 Bernard Gray <bernard.gray@gmail.com>
+	      © 2008 David Creedy <djcreedy@iinet.net.au>
+License: GPL2 or later
 
 Files: icons/install-usb-gui.svg
     Copyright: © 2008 Bernard Gray <bernard.gray@gmail.com>
@@ -49,35 +49,35 @@ Files: icons/install-usb-gui.svg
            © 2007 Riccardo Iaconelli <riccardo@oxygen-icons.org>
            © 2007 David Miller <miller@oxygen-icons.org>
     License: CC-ASA-3.0 | LGPL-2+
-      install-usb-gui.svg includes elements from 
+      install-usb-gui.svg includes elements from
       The Oxygen Icon Theme.
       Licensed under the Creative Common Attribution-ShareAlike 3.0
       license, as found here:
-    
+
         http://creativecommons.org/licenses/by-sa/3.0/
-    
+
       or the GNU Library General Public License (with following clarification).
-    
+
       Clarification:
       The GNU Lesser General Public License or LGPL is written for
       software libraries in the first place. We expressly want the LGPL to
       be valid for this artwork library too.
-    
+
       KDE Oxygen theme icons is a special kind of software library, it is an
       artwork library, it's elements can be used in a Graphical User Interface, or
       GUI.
-    
+
       Source code, for this library means:
        - where they exist, SVG;
        - otherwise, if applicable, the multi-layered formats xcf or psd, or
       otherwise png.
-    
+
       The LGPL in some sections obliges you to make the files carry
       notices. With images this is in some cases impossible or hardly useful.
-    
+
       With this library a notice is placed at a prominent place in the directory
       containing the elements. You may follow this practice.
-    
+
       The exception in section 6 of the GNU Lesser General Public License covers
       the use of elements of this art library in a GUI.
 

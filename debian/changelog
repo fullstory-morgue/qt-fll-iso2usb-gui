@@ -32,7 +32,7 @@ qt-fll-iso2usb-gui (0.0.12) unstable; urgency=low
 
   * Added test for root in bash script. If not root call application
     with su-to-root
-  * Application can't print umlauts if run from the script. 
+  * Application can't print umlauts if run from the script.
     Use ue instead of ü
 
  -- Nikolas Poniros <edhunter@sidux.com>  Thu, 11 Mar 2010 15:18:49 +0100
@@ -61,9 +61,9 @@ qt-fll-iso2usb-gui (0.0.9) unstable; urgency=low
   * if in live mode don't show the choose ISO entry
   * added --format none as default option
   * modified install to add qt-fll-iso2usb-gui.bash
-  * modified qt-fll-iso2usb-gui.menu and qt-fll-iso2usb-gui.desktop to use 
+  * modified qt-fll-iso2usb-gui.menu and qt-fll-iso2usb-gui.desktop to use
     fll-iso2usb-gui.bash
-  * modified copyright to add authors of the original code of 
+  * modified copyright to add authors of the original code of
     qt-fll-iso2usb-gui.bash
 
  -- Nikolas Poniros <edhunter@sidux.com>  Mon, 21 Dec 2009 04:01:08 +0100

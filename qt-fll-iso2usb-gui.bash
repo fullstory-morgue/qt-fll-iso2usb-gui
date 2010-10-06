@@ -1,6 +1,6 @@
 #!/bin/bash
 # qt-fll-iso2usb-gui.bash
-# Copyright: © 2007 Horst Tritremmel <peter_weber69@gmx.at>
+# Copyright: © 2007 Horst Tritremmel <hjt@users.berlios.de>
 # Copyright: © 2007-2009 Joaquim Boura <x-un-i@berlios.de>
 # Copyright: © 2007-2008 Kel Modderman <kel@otaku42.de>
 # Copyright: © 2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>

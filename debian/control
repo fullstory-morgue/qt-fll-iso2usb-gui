@@ -1,8 +1,7 @@
 Source: qt-fll-iso2usb-gui
 Section: admin
 Priority: extra
-Maintainer: Nikolas Poniros <edhunter@sidux.com>
-Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 7.9.3),
  imagemagick,
  inkscape,

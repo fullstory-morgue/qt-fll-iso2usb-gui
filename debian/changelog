@@ -2,6 +2,7 @@ qt-fll-iso2usb-gui (0.1.4) ORPHANED; urgency=low
 
   * NOT RELEASED YET
   * ORPHAN PACKAGE
+  * refresh SVG graphics, shut up inkscape's migration from old versions.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 20 Jan 2011 03:25:30 +0100
 
